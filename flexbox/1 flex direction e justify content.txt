@@ -1,0 +1,54 @@
+flexbox
+
+no elemento pai colocamos display:flex;/*os blocos ficaram alinhado verticalmente
+
+
+DIREÇÃO DA CAIXA
+
+para mudamos a direção colocamos um flex-direction:column; /*muda as colunas da caixa ex: 
+1        
+2      
+3*/    
+
+o padão é row /* muda as linhas da caixa. ex: ISSO É UM LINHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA*/
+
+flex-direction:column-reverse; ira inverter a ordem da coluna a coluna de cima ira toda pra baixo E tbm a ordem dos elementos tbm ira 
+ser trocada (um reverso)
+
+ex:
+----------/
+1         /
+2         /
+3         /
+          /
+3         /
+2         /
+1         /
+----------/
+
+flex-direct:row-reverse; ira inverter as ordem na linha a caixa que ta como padão na esquerda vai pra direita e os elementos tbm serão trocados (reverso)
+ex:
+---------------------------------------/
+123                                 321/
+---------------------------------------/
+
+posicionamento ou alinhameno DA CAIXA em linha
+
+para alinha a caixa colocamos
+justify-content /* ira mudar a posição da linha (row) : exemplo: cima baixo esquerda direita */
+justify-content:flex-start; /* padão */
+justify-content:flex-end; /* ira lá pro final da linha
+justify-content:center; /* ira para o centro da linha
+justify-content:space-betwwer;/* ira dar um espaçamento entre as caixas*/ row-exemplo:1  2  3
+
+justify-content:space-around; /* ira dar um espaçameno entre as caixas e um espaço nos lados da caixa tbm */
+row-exemplo: 
+ 1 2 3  
+
+
+
+
+
+
+                                                                                                                                                         
+                                                                                                                                       

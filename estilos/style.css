@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+main {
+    width: 450px;
+    height: 450px;
+    border: 2px solid red;
+
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+.box{
+    background-color: #ddd;
+    border: solid green;
+    width: 60px;
+    height: 60px;
+}
