@@ -1,0 +1,45 @@
+flexbox
+                      AVISO EMBAIXO DO PAPEL
+
+posicionamento ou alinhameno DA CAIXA em colunas
+
+align-items:flex start; /*padão*/
+align-items:center; /*centro da coluna*/
+align-items: flex-end; /*final da coluns*/
+
+                               quando o flex-directio estiver em COLUMN o align-items ira mexer na linha
+                                           e o justify-content ira mexer na coluna
+
+se o conteudo da linha da caixa pai estiver grande 
+colocamos um flex-wrap:wrap;/*para a quebra na linha ;
+flex-wrap:nowrap; /* sem quebra de linha */
+
+posso alinha uma  caixa flho colocando o id nele e usando o align-self
+
+para colocar o tamanho base da caixa filho coocamos 
+
+flex-basis: 120px; /*agr minha caixa tera a base de 90px de tamanho
+
+para colocar o quanto que o elemento filho vai crescer colocamos um 
+flex-grow:1; ou 2 ou etc /*lembrando que ele ira crescer de acordo do tamanho da caixa */
+
+para reduzir o tamanho colocamos o 
+flex-shrink: 1; reduz normalmente
+flex-shrink: 2; fica pequeno
+
+
+shorthand do flex
+
+ordem 
+flex-grow:1;
+flex-shink:1;
+flex-bases:1;
+
+flex: 1 1 120px;
+
+posso alterar a ordem dos itens do elemento filho  colocando um id neles e dps coloco um 
+ordem:1; /*se o  id for o 2 3 4 5 6 7 8 iten ele se tornara o primeiro/*
+ordem:2; /*sera o segundo bloco e assim por diante*/
+
+
+
